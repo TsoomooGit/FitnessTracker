@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Home</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="stylesheets/style.css">
+    </head>
+
+<body>
+        <div class="jumbotron">
+           
+
+              <!-- Daily target Calories -->
+              <div class="progress-wrapper">
+              <h4>Today's progress: </h4>
+                <div class="progress" id="total-cal-progress">
+                <div id="progress-value" class="progress-bar bg-success" role="progressbar" aria-valuemax="100">
+                0%
+                </div>  
+             </div>
+            </div>
+        </div>
+
+ <div class="body-container"> 
+  
+<div class="shadow rounded" id="activity-container">
+
+    <div class="header">
+            <i class="far fa-calendar-alt"></i>
+    <span id="time-header">
+    </span>
+</div>
+
+<div id="activity-form">
+        <form>
+            <input id="form-activity" type="text" class="form-control" placeholder="Activity"><br>
+            <input id="form-calories" type="number" class="form-control" placeholder="Calories"><br>
+            <input id="form-submit" type="submit" value="Enter" class="btn btn-outline-dark"></input>
+        </form>
+      </div> 
+      <div>
+      <ul id="activity-list" class="list-group mb-5">
+      </ul>
+    </div>
+  </div>
+</div>
+ 
+         
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+    integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+    crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script>
+        document.getElementById("time-header").textContent=moment().format("YYYY-MM-DD");
+    </script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 0px, 20px, 0px, 50px;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.body-container {
+  padding: 50px 55px;
+  margin-left: 10%;
+}
+.jumbotron{
+  background-color: #525469;
+}
+.bg-primary {
+  padding: 10px 70px !important;
+}
+a {
+  color: #00b7ff;
+}
+#title {
+  color: white;
+}
+
+/* BMI style */
+
+.button {
+  color: black;
+}
+.bmi-form {
+  width: 200px;
+  margin-left: 10px;
+}
+.hero {
+  height: 180px;
+  padding-top: 20px;
+}
+
+.progress-wrapper{
+  margin-top: 50px;
+  margin-left: 14%;
+  color: white;
+}
+
+.progress {
+  width: 95%;
+  height: 50px;
+}
+
+#total-cal-progress {
+  width: 69%;
+}
+
+#progress-value {
+  font-size: 25px;
+  color: white;
+}
+
+.warning_danger {
+  background-color: #ef737f;
+}
+.modal-title {
+  font-size: 30px;
+}
+.modal-body {
+  margin: 30px 25px 50px 25px;
+}
+#your-bmi {
+  width: 50%;
+  margin-left: 25%;
+}
+#your-bmi span {
+  font-size: 100%;
+}
+#result_progress {
+  background-color: #f8f9fa;
+}
+
+#bmi_btn {
+  margin-left: 61%;
+}
+
+/* Calender style */
+
+table button {
+  border: none;
+  color: #16a737;
+  background-color: white;
+}
+.card {
+  background-color: white;
+  margin-bottom: 20px;
+}
+.card-header {
+  text-align: center;
+}
+.lead {
+  color: #007bff;
+}
+.card {
+  width: 400px;
+}
+
+#activity-form {
+  width: 90%;
+  margin-bottom: 75px;
+}
+
+#date-header {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 35px;
+  color: #dc3545;
+  text-align: center;
+}
+
+#activity-container {
+  background-color: white;
+  padding: 5% 10% 5% 15%;
+}
+#calories-header {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: #007bff;
+  font-size: 30px;
+}
+#total-cal {
+  color: #dc3545;
+}
+
+#activity-list {
+  font-size: 20px;
+  margin-top: 70px;
+}
+.cal-count {
+  font-size: 15px;
+  color: #28a745;
+}
+
+.list-item {
+  width: 90%;
+  border: 1px solid lightgray;
+  margin-bottom: 15px;
+  padding: 4px 20px;
+  background-color: #e0e8de70;
+  color: #3e4f90;
+}
+
+#calendar-body button:hover {
+  background-color: yellow;
+}
+
+#time-header{
+  font-size: 22px;
+  color: red;
+}
+i{
+  font-size: 22px;
+}
+
+.header{
+  margin-bottom: 20px;
+}
+
+.each-row{
+  margin-bottom: 5px;
+}
+
+.each-date{
+  color: red;
+}
+
+.each-total{
+  color: #28a745;
+  border-bottom: 2px solid gray;
+}
+
+.time{
+  color: gray;
+  font-size: 15px;
+}
